@@ -6,14 +6,14 @@ import Contact from './Pages/Contact/Contact'
 import Service from './Pages/Service/Service'
 import Portfolio from './Pages/Portfolio/Portfolio'
 import './App.css'
-import { BrowserRouter , Routes, Route} from 'react-router'
+import { BrowserRouter , Routes, Route,HashRouter } from 'react-router'
 
 function App() {
 
 
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
@@ -23,7 +23,7 @@ function App() {
           <Route path="portfolio" element={<Portfolio/>}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }
