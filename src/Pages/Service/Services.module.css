@@ -1,0 +1,51 @@
+.serviceIndex {
+    padding: 5rem;
+}
+
+.mainServiceBodyContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.serviceContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #323232;
+    width: 15.2rem;
+    height: 16.125rem;
+    padding-top: 2.813rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+
+.serviceId {
+    font-weight: bolder;
+    padding: 1rem;
+    background-color: #424242ca;
+    width: fit-content;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+
+.serviceName {
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+
+}
+
+.serviceDescription {
+    color: #bbbbbb;
+    font-size: 0.938rem;
+}
+
+@media screen and (max-width: 900px) {
+    .serviceIndex {
+        padding: 0rem;
+    }
+}

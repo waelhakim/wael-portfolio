@@ -1,0 +1,41 @@
+.headerClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    width: 11.875rem;
+    height: 100vh;
+    margin: 0px;
+    background-color: #000000;
+
+}
+
+.headerClass>a {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+
+.headerClass :hover {
+    letter-spacing: 0.1rem;
+    transition: 0.5s;
+}
+
+.settingClass:hover {
+    letter-spacing: 0rem;
+}
+
+.navLinkItems {
+    display: flex;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .headerClass {
+        display: none;
+        background-color: #000000;
+    }
+}

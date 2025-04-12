@@ -1,0 +1,60 @@
+.contactIndexDiv {
+    padding: 5rem;
+}
+
+.inputsDiv {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputsDiv>input {
+    line-height: 1.6;
+    font-size: 0.85rem;
+    font-style: italic;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #111111;
+    color: white;
+    border-bottom: 1px solid #212121;
+    border-right: 1px solid #212121;
+}
+
+.inputsDiv>textarea {
+    line-height: 1.6;
+    font-size: 0.85rem;
+    padding-bottom: 5rem;
+    background-color: #111111;
+    color: white;
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 0.4rem;
+    padding-top: 0.4rem;
+    border-bottom: 1px solid #212121;
+    border-right: 1px solid #212121;
+    border-top: 1px solid #212121;
+    border-left: 1px solid #212121;
+}
+
+input::placeholder {
+    opacity: 0.9;
+    color: white;
+    line-height: 1.6;
+}
+
+textarea::placeholder {
+    opacity: 0.9;
+    color: white;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 700px) {
+
+    .contactIndexDiv {
+        padding: 0rem;
+    }
+
+}
