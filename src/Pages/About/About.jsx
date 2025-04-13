@@ -62,7 +62,7 @@ export default function About(){
                         <p>95%</p>
                     </div>
                     <div style={{width:'100%', height:'2px', backgroundColor:'#444444', position: 'relative'}}>
-                        <div style={{width:'95%', height:'7px', backgroundColor:'#ffffff', position: 'absolute',zIndex:'10'}}></div>
+                        <div style={{width:'95%', height:'7px', backgroundColor:'#f0faf1', position: 'absolute',zIndex:'10'}}></div>
                     </div>
                     <div className={`${Class.individualLine}`}>
                         <p>HTML CSS Jquery</p>
