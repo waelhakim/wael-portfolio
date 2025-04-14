@@ -2,7 +2,7 @@ import Class from './Home.module.css'
 import image from '../../assets/react.svg';
 import { TypeAnimation } from 'react-type-animation';
 import { FaGithub,FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter,FaWhatsapp } from "react-icons/fa6";
 export default function Home(){
 
     return(
@@ -41,7 +41,7 @@ export default function Home(){
         </div>
         <div  className={`${Class.linksContainer}`}>
                 <a href='https://github.com/waelhakim' target='_blank' className={`${Class.linkItem1}`}><FaGithub size={23}/></a>
-                <a href='https://x.com'className={`${Class.linkItem2}`}target='_blank'><FaXTwitter  size={23}/></a>
+                <a href='https://wa.me/+96181969483'className={`${Class.linkItem2}`}target='_blank'><FaWhatsapp  size={23}/></a>
                 <a href='https://linkedin.com/in/wael-hakim-17763b189'className={`${Class.linkItem3}`}target='_blank'><FaLinkedin size={23}/></a>
             </div>
             </div>

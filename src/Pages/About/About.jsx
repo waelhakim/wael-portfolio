@@ -9,8 +9,8 @@ export default function About(){
             <p style={{color:'#BBBBBB',fontSize:'0.938rem',marginTop:'5px', marginBottom:'27px'}}>Web Developer</p>
             <hr style={{borderBottom:'0.1px rgba(223, 223, 223, 0.39)', marginBottom:'27px'}}/>
             <p style={{color:'#bbbbbb' ,fontSize:'0.938rem',lineHeight:'2rem', marginBottom:'2rem' ,fontWeight:'400'}}>
-            Hi, my name is Adriano Smith and I began using WordPress when it first began.
-             I’ve spent most of my waking hours for the last ten years designing, programming and operating WordPress sites.<br/>
+            Hi, my name is Wael Hakim and I began using Html , Css and JavaScript when it first began.
+             I’ve spent most of my waking hours for the last 3 years designing, programming and operating React sites.<br/>
             One of my specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to produce sites with a unique, outstanding, contemporary look-and-feel. With extensive knowledge of web mechanics,
              I’m able to optimize complex integrations to require little-to-no maintenance while running on their own for years.
             </p>
@@ -26,7 +26,7 @@ export default function About(){
                     </div>
                     <div  className={`${Class.infoTitleContainer}`}>
                     <p>23.12.2001</p>
-                    <p>32</p>
+                    <p>23</p>
                     <p>Beirut - Lebanon</p>
                     <p>hakimwael001@hotmail.com</p>
                     <p>+961 81 969 483</p>
@@ -53,7 +53,9 @@ export default function About(){
                 </div>
             </div>
             <hr style={{borderBottom:'0.1px rgba(223, 223, 223, 0.39)'}}/>
+            <a href='CV(wael hakim).pdf' download>
             <button style={{marginTop:'2rem', padding:'1rem', paddingRight:'2rem', paddingLeft:'2rem', cursor:'pointer'}}>Download CV</button>
+            </a>
             <div className={`${Class.skillsTab}`}>
                 <div>
                     <h2>Programing Skills</h2>
