@@ -6,8 +6,8 @@ import { IoMdSettings,IoIosMailOpen } from "react-icons/io";
 import { FaUser } from "react-icons/fa";
 import { MdBusinessCenter } from "react-icons/md";
 import {useState , useEffect} from 'react';
+import { IoArrowBackCircleOutline } from "react-icons/io5";
 export default function Header(props){
-    console.log("The header state: "+ props.isVisible);
     const [width, setWidth] = useState(window.innerWidth);
  
     useEffect(() => {
@@ -30,8 +30,11 @@ export default function Header(props){
             <NavLink to="/portfolio"><div className={`${Class.navLinkItems}`}><MdBusinessCenter color="white"/> Portfolio </div></NavLink>
             <NavLink to="/contact"><div className={`${Class.navLinkItems}`}><IoIosMailOpen color="white"/> Contact </div></NavLink>
             <p className={Class.settingClass} style={{color:'#bbbbbb' , fontStyle:'italic', fontSize:'0.938rem', fontWeight:'400', marginTop:'3rem'} }>&copy; { new Date().getFullYear()} Beirut <br/>Created by Wael Hakim</p>
+            {width <= 1200 &&
+            <IoArrowBackCircleOutline size={40} color="white" style={{alignSelf:'end',justifySelf:'end'}} onClick={props.onBtnClick}/>
+            }
         </nav>
-        
+
          </div>
     )
 }

@@ -64,28 +64,28 @@ export default function About(){
                         <p>95%</p>
                     </div>
                     <div style={{width:'100%', height:'2px', backgroundColor:'#444444', position: 'relative'}}>
-                        <div style={{width:'95%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'10'}}></div>
+                        <div style={{width:'95%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'5'}}></div>
                     </div>
                     <div className={`${Class.individualLine}`}>
                         <p>HTML CSS Jquery</p>
                         <p>95%</p>
                     </div>
                     <div style={{width:'100%', height:'2px', backgroundColor:'#444444', position: 'relative'}}>
-                        <div style={{width:'95%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'10'}}></div>
+                        <div style={{width:'95%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'5'}}></div>
                     </div>
                     <div className={`${Class.individualLine}`}>
                         <p>Java</p>
                         <p>90%</p>
                     </div>
                     <div style={{width:'100%', height:'2px', backgroundColor:'#444444', position: 'relative'}}>
-                        <div style={{width:'85%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'10'}}></div>
+                        <div style={{width:'85%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'5'}}></div>
                     </div>
                     <div className={`${Class.individualLine}`}>
                         <p>C++</p>
                         <p>80%</p>
                     </div>
                     <div style={{width:'100%', height:'2px', backgroundColor:'#444444', position: 'relative'}}>
-                        <div style={{width:'80%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'10'}}></div>
+                        <div style={{width:'80%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'5'}}></div>
                     </div>
                 </div>
                 <div>
@@ -95,21 +95,21 @@ export default function About(){
                         <p>95%</p>
                     </div>
                     <div style={{width:'100%', height:'2px', backgroundColor:'#444444', position: 'relative'}}>
-                        <div style={{width:'95%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'10'}}></div>
+                        <div style={{width:'95%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'5'}}></div>
                     </div>
                     <div className={`${Class.individualLine}`}>
                         <p>Arabic</p>
                         <p>95%</p>
                     </div>
                     <div style={{width:'100%', height:'2px', backgroundColor:'#444444', position: 'relative'}}>
-                        <div style={{width:'95%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'10'}}></div>
+                        <div style={{width:'95%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'5'}}></div>
                     </div>
                     <div className={`${Class.individualLine}`}>
                         <p>French</p>
                         <p>40%</p>
                     </div>
                     <div style={{width:'100%', height:'2px', backgroundColor:'#444444', position: 'relative'}}>
-                        <div style={{width:'40%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'10'}}></div>
+                        <div style={{width:'40%', height:'2px', backgroundColor:'#7b7b7b', position: 'absolute',zIndex:'5'}}></div>
                     </div>
                 </div>
             </div>

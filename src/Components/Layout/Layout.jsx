@@ -9,11 +9,15 @@ import {useState} from 'react';
 
 export default function Layout(){
     const [navBarState , setNavBarState] = useState(true);
-    console.log(navBarState);
+
+   function handleBtnClick(){
+    setNavBarState(prevState => !prevState);
+    }
+
 
     return(
         <div className={Class.layoutComponent}> 
-            <Header isVisible={navBarState}/>
+            <Header isVisible={navBarState} onBtnClick={handleBtnClick}/>
 
             <div className={Class.bodyContainer}>
             <Outlet />
