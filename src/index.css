@@ -8,37 +8,37 @@ body {
 
 /* Custom styles only for Instagram's in-app browser */
 .instagram-browser h1 {
-  font-size: 32px !important;
+  font-size: 20px !important;
   /* Adjust size for h1 */
 }
 
 .instagram-browser h2 {
-  font-size: 25px !important;
+  font-size: 15px !important;
   /* Adjust size for h2 */
 }
 
 .instagram-browser h3 {
-  font-size: 20px !important;
+  font-size: 12px !important;
   /* Adjust size for h3 */
 }
 
 .instagram-browser h4 {
-  font-size: 18px !important;
+  font-size: 9px !important;
   /* Adjust size for h4 */
 }
 
 .instagram-browser .sqsrte-large {
-  font-size: 16px !important;
+  font-size: 5px !important;
   /* PARAGRAPH 1 */
 }
 
 .instagram-browser p:not(.sqsrte-large):not(.sqsrte-small) {
-  font-size: 12px !important;
+  font-size: 9px !important;
   /* PARAGRAPH 2 */
 }
 
 .instagram-browser .sqsrte-small {
-  font-size: 11px !important;
+  font-size: 7px !important;
   /* PARAGRAPH 3 */
 }
 
