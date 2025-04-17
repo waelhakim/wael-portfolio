@@ -18,14 +18,12 @@ export default function About(){
             <div className={`${Class.aboutInfoTab}`}>
                 <div className={`${Class.aboutInfodiv1}`}>
                     <div className={`${Class.infoTitleContainer}`}>
-                    <strong>Birthday:</strong>
                     <strong>Age:</strong>
                     <strong>Adress:</strong>
                     <strong>Email:</strong>
                     <strong>Phone:</strong>
                     </div>
                     <div  className={`${Class.infoTitleContainer}`}>
-                    <p>23.12.2001</p>
                     <p>23</p>
                     <p>Beirut - Lebanon</p>
                     <p>hakimwael001@hotmail.com</p>

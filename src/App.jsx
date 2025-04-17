@@ -10,7 +10,8 @@ import { BrowserRouter , Routes, Route,HashRouter } from 'react-router'
 
 function App() {
 
-
+  if (navigator.userAgent.includes('Instagram')) { document.body.classList.add('instagram-browser'); }
+  
   return (
     <>
     <HashRouter>
