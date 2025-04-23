@@ -64,3 +64,18 @@
     }
 
 }
+
+@media screen and (max-width: 400px) {
+
+    .portfolioIndexDiv {
+        padding: 0rem;
+    }
+
+    .portLink1 {
+        width: 15rem;
+        min-width: 15rem;
+        height: 15rem;
+        font-size: 1.8rem;
+    }
+
+}

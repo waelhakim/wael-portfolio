@@ -32,14 +32,12 @@ export default function About(){
                 </div>
                 <div className={`${Class.aboutInfodiv2}`}>
                     <div className={`${Class.infoTitleContainer}`}>
-                    <strong>Nationality:</strong>
                     <strong>Study:</strong>
                     <strong>Degree:</strong>
                     <strong>Interest:</strong>
                     <strong>Freelance:</strong>
                     </div>
                     <div  className={`${Class.infoTitleContainer}`}>
-                    <p>Lebanese</p>
                     <p>Computer Science</p>
                     <p>Bachelor </p>
                     <p>Playing Football</p>

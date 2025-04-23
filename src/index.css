@@ -6,46 +6,5 @@ body {
 
 }
 
-/* Custom styles only for Instagram's in-app browser */
-.instagram-browser h1 {
-  font-size: 20px !important;
-  /* Adjust size for h1 */
-}
-
-.instagram-browser h2 {
-  font-size: 15px !important;
-  /* Adjust size for h2 */
-}
-
-.instagram-browser h3 {
-  font-size: 12px !important;
-  /* Adjust size for h3 */
-}
-
-.instagram-browser h4 {
-  font-size: 9px !important;
-  /* Adjust size for h4 */
-}
-
-.instagram-browser .sqsrte-large {
-  font-size: 5px !important;
-  /* PARAGRAPH 1 */
-}
-
-.instagram-browser p:not(.sqsrte-large):not(.sqsrte-small) {
-  font-size: 9px !important;
-  /* PARAGRAPH 2 */
-}
-
-.instagram-browser .sqsrte-small {
-  font-size: 7px !important;
-  /* PARAGRAPH 3 */
-}
-
-/* Custom styles only for Instagram's in-app browser - CONTENT TITLE */
-.instagram-browser h2.list-item-content__title {
-  font-size: 5vw !important;
-  /* Content TITLE SIZE */
-}
 
 /*::-webkit-scrollbar {}*/
