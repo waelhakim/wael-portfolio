@@ -1,5 +1,5 @@
 import Class from './Portfolio.module.css'
-
+import happyFacesImg from "../../assets/happyFacesImg.jpg"
 export default function Portfolio(){
     return(
         <div className={`${Class.portfolioIndexDiv}`}>
@@ -7,7 +7,8 @@ export default function Portfolio(){
             <h1>My Portfolio</h1>
             <div style={{marginTop:'5rem'}}>
                 <div className={`${Class.portLink1}`}><a href='https://waelhakim.github.io/VanNomadsLB/'style={{textDecoration:'none'}} target="_blank"><h3>#VanNomads</h3></a></div>
-                <div>HappyFaces {":)"}</div>
+                <div className={`${Class.portLink1}`} style={{ backgroundImage: `url(${happyFacesImg})` }} ><a href='#/portfolio'style={{textDecoration:'none'}} ><h3>Happy Faces :)</h3></a></div>
+                
             </div>
         </div>
     )
